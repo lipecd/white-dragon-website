@@ -1,0 +1,171 @@
+@media screen and (max-width: 1042px) {
+  header {
+    height: 4.5rem;
+  }
+
+  .nav ul li {
+    padding-right: 2rem;
+  }
+
+  .nav .social-media {
+    padding-right: 1.5rem;
+  }
+
+  .instructors {
+    gap: 4rem;
+  }
+
+  .classes {
+    padding: 7rem 0;
+  }
+  
+  .classes .cards {
+    width: 80%;
+  }
+
+  .contact {
+    padding: 7rem 3rem;
+  }
+
+  footer {
+    padding: 4rem 4rem;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .nav ul {
+    flex-direction: column;
+    text-align: center;
+    width: 300px;
+    height: 100vh;
+    position: fixed;
+    top: 5px;
+    right: -300px;
+    background: rgba(0,0,0,0.8);
+    z-index: 100;
+    margin-top: 4.2rem;
+    transition: .5s;
+  }
+
+  .nav li {
+    padding: 4px 0;
+  }
+
+  .nav li a {
+    font-size: 1.2rem;
+  }
+
+  .nav .social-media {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .nav .social-media i {
+    padding: 0 15px 0 15px;
+  }
+
+  #bar {
+    display: initial;
+    cursor: pointer;
+  }
+
+  .contact .map {
+    padding-left: 4rem;
+  }
+
+  .contact .container {
+    padding-right: 4rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home .title {
+    font-size: 2rem;
+  }
+
+  .home .buttons {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .instructors {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .instructors .cards {
+    width: 100%;
+  }
+
+  .classes .cards {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .classes .cards .card {
+    width: 80%;
+    margin-bottom: 2rem;  
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .contact .container {
+    padding-right: 0;
+    padding-bottom: 2rem;
+    width: 80%;
+  }
+
+  .contact .map {
+    padding-left: 0;
+    padding-top: 2rem;
+    border-left: 0;
+    border-top: 1px solid var(--button);
+    width: 80%;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 496px) {
+  .instructors {
+    padding: 3rem;
+  }
+
+  .instructors .cards {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .instructors .cards .card {
+    width: 100%;
+  }
+
+  .classes .cards {
+    width: 100%;
+  }
+
+  .classes .cards .cards {
+    width: 100%;
+  }
+
+  .contact .map, .contact .container {
+    width: 100%;
+  }
+
+  footer {
+    padding: 4rem 3rem;
+    text-align: center;
+  }
+}
